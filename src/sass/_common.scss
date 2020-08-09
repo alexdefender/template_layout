@@ -1,0 +1,22 @@
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Geometria';
+  cursor: default;
+}
+
+.section {
+}
+
+.container {
+  max-width: 1320px;
+  height: 100%;
+  margin: 0 auto;
+
+  @include r(1366) {
+    margin: 0 20px;
+  }
+}
+
+.content {
+}

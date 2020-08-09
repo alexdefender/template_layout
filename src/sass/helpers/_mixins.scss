@@ -1,0 +1,26 @@
+@mixin r($width) {
+  @media only screen and (max-width: $width+ 'px') {
+    @content;
+  }
+}
+
+// font-family
+@mixin addFont($alias, $name, $weight, $style) {
+  @font-face {
+    font-family: $alias;
+    src: local($name), url('../fonts/' + $name + '.woff2') format('woff2'),
+      url('../fonts/' + $name + '.woff') format('woff'),
+      url('../fonts/' + $name + '.ttf') format('ttf'),
+      url('../fonts/' + $name + '.eot') format('eot');
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}
+
+@mixin font-style($size: 16px, $height: 20px, $weight: normal, $slyle: normal) {
+  font-size: $size;
+  line-height: $height;
+  font-weight: $weight;
+  font-style: $slyle;
+}

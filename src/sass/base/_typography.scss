@@ -1,0 +1,16 @@
+@include addFont(Geometria, Geometria-Thin, 100, normal);
+@include addFont(Geometria, Geometria-ThinItalic, 100, italic);
+@include addFont(Geometria, Geometria-ExtraLight, 200, normal);
+@include addFont(Geometria, Geometria-ExtraLightItalic, 200, italic);
+@include addFont(Geometria, Geometria-Light, 300, normal);
+@include addFont(Geometria, Geometria-LightItalic, 300, italic);
+@include addFont(Geometria, Geometria-Regular, normal, normal); // 400
+@include addFont(Geometria, Geometria-Italic, normal, italic); // 400
+@include addFont(Geometria, Geometria-Medium, 500, normal);
+@include addFont(Geometria, Geometria-MediumItalic, 500, italic);
+@include addFont(Geometria, Geometria-Bold, bold, normal); // 700
+@include addFont(Geometria, Geometria-BoldItalic, bold, italic); // 700
+@include addFont(Geometria, Geometria-ExtraBold, 800, normal);
+@include addFont(Geometria, Geometria-ExtraBoldItalic, 800, italic);
+@include addFont(Geometria, Geometria-Heavy, 900, normal);
+@include addFont(Geometria, Geometria-HeavyItalic, 900, italic);
